@@ -4,6 +4,9 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+mypy = "==0.760"
+flake8 = "==3.7.9"
+pytest = "==5.3.5"
 
 [packages]
 aiokafka = "==0.5.2"
